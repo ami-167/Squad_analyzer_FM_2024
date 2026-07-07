@@ -16,3 +16,20 @@ How to get the data out of FM:
 12. The data in the green sheets should in principle update immediately.
 13. However, in some sheets you might need to drag the formulas further down (if you have more players) of delete a couple of rows with #N/A (if you have less players).
 14. Enjoy :)
+
+Purpose of the different sheets:
+Readme: Take a guess :)
+Squad: This is where you paste the content of the html file with the players and their attributes.
+Roles_per_formation: No need to look at this - it just lists which roles exist in which formation.
+Important_attributes_per_role: No need to look at this - it just lists which attributes are important ("green") and secondary ("blue") for each role.
+Role_count_per_attribute: No need to look at this - it just lists for how many roles each attribute is important or secondary.
+Attribute_weighting_for_role_rating: If you want to, you can adjust how the important, the secondary, and the other attributes are weighted when calculating the role fit. (Default: 2/1/0.)
+Role_rating_per_player: This shows how well each player fits each role, based on their attributes and your weighting of the important, secondary, and other attributes.
+Difference_to_base_role_per_player: This shows how much worse each player is in each role compared to their best role.
+Best_role_per_player: This shows the 5 best roles for each player.
+Simple_best_XI: This shows the players in the highest rated goalkeeper role and the 10 highest rated outfield player's roles - so your best starting XI purely based on role ratings. The lineup that comes out of this might not make much sense in reality.
+Player_flexibility: This shows how many roles each player can fill with at least X % (configurable) of his rating for his best role.
+Best_player_per_role: This shows the 5 best players for each role. (Basically the opposite of "Best_role_per_player".)
+Role_depth: This shows how many players can fill out each role with a rating above a configurable threshold. (Basically the opposite of "Player_flexibility".)
+Top_5_Special_attributes: This shows the top 5 players for "special" attributes that are not included in any role (penalties,...) as well as the squad's average rating for each.
+Top_5_All_attributes: This shows the top 5 players for all attributes as well as the squad's average rating for each.
