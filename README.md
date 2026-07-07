@@ -13,4 +13,6 @@ How to get the data out of FM:
 9. Outside of FM, navigate to that folder and double-click on the html file. It should open in a browser and you should see the same table with players and attributes that you also saw in the game itself.
 10. Select all the data of that table - ideally not with Ctrl+A (because that will add an unnecessary row at the top and also copy the link to sigames.com in the bottom), but with drag/drop
 11. Now go into the tool itself, into the sheet "Squad", and paste into cell A1. The players and their attributes should now be shown here.
-12. The data in the green sheets should update immediately. Enjoy :)
+12. The data in the green sheets should in principle update immediately.
+13. However, in some sheets you might need to drag the formulas further down (if you have more players) of delete a couple of rows with #N/A (if you have less players).
+14. Enjoy :)
