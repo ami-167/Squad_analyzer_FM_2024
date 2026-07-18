@@ -16,13 +16,12 @@ How-to Apps Script:
 4. The light-blue sheets "Best_tactic" and beyond should auto-populate with the results.
 
 How-to Python:
-1. Make sure Python works on your computer. There are tons of guides online how to do that.
+1. Make sure Python works on your computer. There are tons of guides online how to do that, I have full trust in your abilities.
 2. Download "Script.py" and "roles.csv" from my Github account and put them into a certain folder.
-3. From your copy of the Google Sheet, download the sheet "Role_rating_per_player" as csv file and put it into the same folder.
-4. Rename the downloaded sheet "ratings.csv".
-5. Run the python script. It should generate a file called "best_tactic_python.csv" in the same folder.
-6. Open that csv file and copy the content into the sheet "Best_tactic_raw_data" in the Google Sheet.
-7. The pink sheets "Best_tactic" and beyond should auto-populate with the results.
+3. From your copy of the Google Sheet, download the sheet "Role_rating_per_player" as csv file, put it into the same folder, and rename it "ratings.csv".
+4. Run the python script. It should generate a file called "best_tactic_python.csv" in the same folder.
+5. Open that csv file and copy the content into the sheet "Best_tactic_raw_data" in the Google Sheet.
+6. The pink sheets "Best_tactic" and beyond should auto-populate with the results.
 
 What to do with the results of the tactic optimization:
 1. The sheet "Best_tactic":
