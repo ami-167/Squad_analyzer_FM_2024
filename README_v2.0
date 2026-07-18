@@ -1,0 +1,46 @@
+Version 2.0 contains some new functionalities which are not self-explanatory...
+
+The main part is a sort of "tactic optimization" (for lack of a better word) that determines the best lineup for each preconfigured tactic and calculates an overall rating for that formation.
+Some other new functionalities then build on that (more on that later).
+
+I couldn't figure out how to do the tactic optimization with formulas, so I had to revert to other tools (either one works, you don't have to use both):
+- with Apps Script, can be used directly in Google Sheets
+- with Python, for those of you who don't mind a slightly more technical approach.
+
+In my tests, Python typically produced slightly better results - but Apps Script worked totally fine as well.
+
+How-to Apps Script:
+1. In your copy of the Google Sheet, go on Extensions / Apps Script.
+2. You should see something like "Tactic optimizer FM24 v 2.0 (AppsScript)".
+3. Click on the "Play" button to execute it.
+4. The light-blue sheets "Best_tactic" and beyond should auto-populate with the results.
+
+How-to Python:
+1. Make sure Python works on your computer. There are tons of guides online how to do that.
+2. Download Script.py from my Github account and put it into a certain folder.
+3. From your copy of the Google Sheet, download the sheets 1) "Roles_per_formation" and 2) "Role_rating_per_player" as csv files and put them into the same folder.
+4. Rename the sheets 1) "roles.csv" and 2) "ratings.csv" respectively.
+5. Run the python script. It should generate a file called "best_tactic_python.csv" in the same folder.
+6. Open that csv file and copy the content into the sheet "Best_tactic_raw_data" in the Google Sheet.
+7. The pink sheets "Best_tactic" and beyond should auto-populate with the results.
+
+What to do with the results of the tactic optimization:
+1. The sheet "Best_tactic":
+  - shows which players should ideally fulfil which role in which tactic and how well they fit to that role,
+  - calculates an overall rating of that tactic (average of the 11 player ratings in their roles),
+  - and calculates how far each player is below/above the tactic's average rating.
+2. The sheet "Gaps_per_tactic":
+  - shows the same data, but not ordered from goalkeeper to striker, but rather by discrepancy to the tactic's average rating (worst player first).
+  - The idea is to show where you might want to improve your squad first, for example if one of your tactics has an average rating of 15.82:
+  - If starter Joško Gvardiol at WCB only has a rating of 14.18 there (= gap of -1.64, biggest negative gap in that tactic), it would show him first,
+  - and if Bernardo Silva has a winger rating of 16.95 (= gap of +1.13, biggest positive gap in that tactic), he is shown last.
+3. The sheet "Closing the gaps":
+  - allows you to see the impact that a number of new signings could have.
+  - Enter the number of possible new starters you can sign ("X"), the maximum is 5.
+  - Enter the target rating of those new signings ("Y").
+  - You can then see for each tactic the difference in rating between your worst X player(s) and your best 11-X players, showing you where a single transfer can have the most impact.
+  - You can also see by how much X transfers with an average rating of Y could boost your squad's overall rating and what the new overall rating would be.
+  - The differences here are smaller than I expected - but then again it's across the entire tactic, so divided by 11 essentially, so it kind of makes sense.
+4. The remaining sheets are very straightforward - they just visualize each tactic and its optimal lineup with the players, roles, and color-coded ratings. 
+
+NOTE: The tool does not consider "footedness" - so it might suggest to play Kyle Walker as left wingback or Bernardo Silva as right winger.
