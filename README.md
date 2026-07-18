@@ -1,6 +1,8 @@
 # Squad_analyzer_FM_2024
 Small tool to help you analyze your FM2024 squad :)
 
+Link to the tool: https://docs.google.com/spreadsheets/d/1cq4W3ippnF-5XQUIlONsd4yGip8IvGrUICYmWempTe0/edit?usp=sharing (read-only access, so you need to make a copy of it)
+
 How to get the data out of FM and into the tool:
 1. Download the view file "Attributes FM24.fmf" from here.
 2. Save it in the Views folder, should be something like C:\Users\YourUser\Documents\Sports Interactive\Football Manager 2024\views.
