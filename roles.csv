@@ -1,0 +1,31 @@
+Formation,Role 1,Role 2,Role 3,Role 4,Role 5,Role 6,Role 7,Role 8,Role 9,Role 10,Role 11
+Control Possession 4-2-3-1,SK - Su,IFB - De,BPD - De,CD - De,WB - Su,BWM - De,DM - Su,W - Su,AP - Su,IW - Su,CF - At
+Control Possession 4-3-3,SK - Su,IFB - De,BPD - De,CD - De,IWB - Su,DM - De,AP - Su,MEZ - Su,W - At,IW - Su,CF - At
+Control Possession 5-2-3,SK - Su,BPD - De,CD - Co,WCB - Su,WB - At,DM - De,RPM - Su,IWB - Su,IF - Su,IW - Su,CF - At
+Gegenpress 4-3-3,SK - At,WB - Su,BPD - De,BPD - De,WB - Su,DLP - De,CAR - Su,CM - Su,IF - At,IF - At,PF - At
+Gegenpress 4-2-3-1,SK - At,WB - At,BPD - De,CD - De,WB - De,BWM - De,DLP - Su,IF - Su,AM - At,W - At,PF - At
+Gegenpress 4-2-4,SK - At,WB - Su,CD - De,BPD - De,WB - De,BWM - De,DLP - Su,IF - At,W - At,PF - Su,AF - At
+Tiki-Taka 4-3-3,SK - At,IWB - Su,BPD - De,CD - De,IFB - De,DLP - Su,AP - At,RPM - Su,W - Su,IF - Su,DLF - At
+Tiki-Taka 4-2-3-1,SK - At,IFB - De,BPD - De,CD - De,IWB - Su,DM - De,RPM - Su,IW - Su,AM - Su,W - At,CF - At
+Tiki-Taka 5-2-3,SK - At,BPD - De,CD - Co,WCB - Su,WB - Su,DM - De,RPM - Su,IWB - Su,AP - Su,W - At,CF - At
+Vertical Tiki-Taka 4-3-3,SK - Su,IFB - De,CD - De,BPD - De,IWB - Su,RGA - Su,BBM - Su,MEZ - Su,IW - Su,IF - Su,PF - At
+Vertical Tiki-Taka 4-4-2,SK - Su,WB - At,BPD - De,CD - De,WB - Su,DLP - Su,CAR - Su,BWM - Su,AM - Su,CF - Su,P - At
+Vertical Tiki-Taka 4-2-3-1,SK - Su,WB - Su,CD - De,BPD - De,IWB - Su,DM - De,DLP - Su,IF - Su,AM - Su,IW - Su,DLF - At
+Wing Play 4-4-2,G - De,WB - Su,CD - De,CD - De,WB - At,W - At,BWM - De,BBM - Su,W - Su,DLF - Su,AF - At
+Wing Play 4-3-3,G - De,WB - Su,CD - De,CD - De,WB - At,A - De,DLP - Su,CM - Su,W - At,W - Su,AF - At
+Wing Play 5-2-3,G - De,WCB - At,CD - Co,BPD - De,WB - Su,DM - De,DLP - Su,WB - At,W - At,W - Su,TF - At
+Route One 4-4-2,G - De,FB - Su,NCB - De,NCB - De,FB - Su,W - At,BWM - De,BBM - Su,W - Su,TF - Su,PF - At
+Route One 4-3-3,G - De,FB - Su,NCB - De,NCB - De,NFB - De,A - De,CM - Su,BBM - Su,W - At,W - Su,TF - At
+Route One 5-3-2,G - De,WCB - De,CD - Co,NCB - De,WB - Su,WB - Su,A - De,CM - At,DLP - Su,TF - Su,P - At
+Fluid Counter-Attack 4-3-3,SK - De,WB - Su,CD - De,BPD - De,WB - Su,DM - De,CM - Su,BBM - Su,W - Su,IW - Su,PF - At
+Fluid Counter-Attack 4-2-3-1,SK - De,WB - Su,CD - De,BPD - De,WB - Su,BWM - De,DM - De,W - Su,AM - Su,IW - Su,AF - At
+Fluid Counter-Attack 5-3-2,SK - De,CD - De,CD - Co,WCB - De,WB - Su,WB - Su,BWM - De,BBM - Su,DLP - Su,DLF - Su,PF - At
+Direct Counter-Attack 4-4-2,SK - De,FB - Su,CD - De,NCB - De,FB - Su,W - Su,BWM - De,CM - Su,WM - Su,PF - De,AF - At
+Direct Counter-Attack 4-3-3,SK - De,FB - Su,CD - De,NCB - De,WB - Su,A - De,CM - De,BBM - Su,W - Su,IF - Su,AF - At
+Direct Counter-Attack 5-2-3,SK - De,CD - De,NCB - Co,CD - De,WB - Su,WB - Su,DM - De,DLP - Su,IW - Su,IF - At,PF - At
+Catenaccio 5-2-3,G - De,CD - De,L - Su,CD - De,WB - Su,WB - Su,DM - De,RPM - Su,W - Su,W - Su,T - At
+Catenaccio 5-2-1-2,G - De,CD - De,L - Su,CD - De,WB - De,WB - De,RGA - Su,DM - De,T - At,DLF - Su,AF - At
+Catenaccio 5-2-2-1,G - De,CD - De,L - Su,CD - De,WB - Su,WB - Su,DM - De,RPM - Su,AM - Su,EG - Su,T - At
+Park the Bus 4-4-2,G - De,FB - Su,NCB - De,NCB - De,FB - Su,DW - Su,DLP - De,BWM - De,DW - Su,PF - De,PF - At
+Park the Bus 4-2-4,G - De,FB - Su,NCB - De,CD - De,FB - Su,DM - De,DLP - Su,WT - Su,IW - Su,PF - De,P - At
+Park the Bus 4-3-3,G - De,FB - De,NCB - De,CD - De,FB - Su,DM - De,CM - De,DLP - Su,W - Su,IW - Su,PF - De
